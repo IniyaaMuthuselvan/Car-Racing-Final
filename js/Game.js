@@ -234,7 +234,7 @@ class Game {
 
   handleCollisionWithCars(index){
     if(index == 1){
-     if(cars[o].collide(cars[1])){
+     if(cars[0].collide(cars[1])){
       if(this.leftKeyActive){
         player.positionX += 80;
       }
